@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> <%= title%> </title>
+    <%- include('partials/head.html') %>
+  
+</head>
+
+<body>
+  <h1>Hello Wordl <%= 5 + 5 %> </h1> 
+
+  <%- include('partials/navigation.html') %>
+
+  <div class="container">
+    <header class="row">
+   <div class="col-lg-12 text-center">
+     <img src="/img/testing.jpg" class="animated bounceIn" alt="testing">
+   </div>
+    </header>
+  </div>
+
+<!--SECTION ONE-->
+<div class="container fluid" id="">
+<div class="row bg-dark text-white p-5 text-center">
+  <div class="col-sm-6">
+<i class="fas fa-user-hard-hat fa-10x"></i>
+  </div>
+
+  <div class="col-sm-6">
+    <h3>¿Qué es ser Choucair</h3>
+    <p>
+      Significa estar comprometido con la transformación digital de las industrias y con probar que juntos podemos construir un mundo mejor a través de la tecnología, la sostenibilidad y la innovación, cumpliendo a la vez nuestros propósitos personales.
+     </p>
+  </div>
+</div>
+</div>
+
+<%- include('partials/footer.html') %>
+</body>
+
+</html>
